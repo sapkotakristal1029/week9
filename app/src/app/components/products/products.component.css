@@ -1,0 +1,161 @@
+/* Styling the heading */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Table container */
+.product-table-container {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+/* Product Table Styling */
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+.product-table thead {
+  background-color: #f2f2f2;
+}
+
+.product-table th,
+.product-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.product-table th {
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+}
+
+.product-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.product-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Styling for No Products message */
+p {
+  text-align: center;
+  font-size: 18px;
+  color: red;
+  font-family: Arial, sans-serif;
+}
+/* Styling for the update form container */
+.update-form-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: 60%;
+  margin: 0 auto;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.btn {
+  padding: 10px 15px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.cancel-btn {
+  background-color: #f44336;
+  color: white;
+  margin-left: 10px;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
+.cancel-btn:hover {
+  background-color: #d32f2f;
+}
+
+.delete-btn:hover {
+  /* margin-left: 20px; */
+  /* padding-left: 20px; */
+  background-color: red;
+}
+.delete-btn {
+  margin-left: 20px;
+  /* padding-left: 20px; */
+  background-color: red;
+}
+.update-btn {
+  margin-left: 5px;
+}
+.update-btn:hover {
+  background-color: lightgreen;
+}
+/* Centering the button */
+.add-product-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Adjust the margin to space it from other elements */
+}
+
+/* Styling the button */
+.add-product-container .btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-product-container .btn:hover {
+  background-color: #0056b3;
+}
+
+.add-product-container .btn:active {
+  background-color: #003f7f;
+}
